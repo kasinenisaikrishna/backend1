@@ -30,7 +30,7 @@ pipeline {
             
             steps {
                     sh """
-                    docker build -t 9689mahesh/backend:${appVersion}
+                    docker build -t 9689mahesh/backend:${appVersion} .
                     """
             }
         }
